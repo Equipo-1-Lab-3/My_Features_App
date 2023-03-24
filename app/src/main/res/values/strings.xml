@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">My Features App</string>
+    <string name="P_circulo_button">PERIMETRO</string>
+
 </resources>
