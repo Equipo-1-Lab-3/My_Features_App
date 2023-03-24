@@ -14,7 +14,7 @@
         
         <activity
             
-            android:name = "com.santiagotorres.splash.SplashActivity"
+            android:name = ".ui.splash.SplashActivity"
             android:exported="true"
             android:theme="@style/Theme.myfeaturesapp.NoActionBar">
 
@@ -28,7 +28,7 @@
 
 
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.main.MainActivity"
             android:exported="true">
 
         </activity>

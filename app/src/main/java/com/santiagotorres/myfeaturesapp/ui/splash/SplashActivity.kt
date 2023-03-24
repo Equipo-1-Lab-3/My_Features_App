@@ -1,10 +1,10 @@
-package com.santiagotorres.splash
+package com.santiagotorres.myfeaturesapp.ui.splash
 
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
-import com.santiagotorres.myfeaturesapp.MainActivity
+import com.santiagotorres.myfeaturesapp.ui.main.MainActivity
 import com.santiagotorres.myfeaturesapp.databinding.ActivitySplashBinding
 import java.util.*
 import kotlin.concurrent.timerTask
