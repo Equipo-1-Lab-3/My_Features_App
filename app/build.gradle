@@ -37,9 +37,8 @@ android {
     buildFeatures {
         viewBinding true
     }
-
 }
-
+//Hola
 dependencies {
 
     implementation 'androidx.core:core-ktx:1.7.0'
