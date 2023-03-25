@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">My Features App</string>
+    <string name="Base">Base en cm</string>
+    <string name="altura">Altura en cm</string>
+    <string name="button_text">Calcular Perimetro</string>
+    <string name="Obligatorio">*Campo Obligatorio</string>
+    <string name="empty" />
+    <string name="texto_principal">Perímetro del rectángulo</string>
 </resources>
