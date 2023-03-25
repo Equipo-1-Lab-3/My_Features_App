@@ -12,9 +12,7 @@ class PerimetroRectanguloActivity : AppCompatActivity() {
     private lateinit var perimetrorectanguloBinding: ActivityPerimetroRectanguloBinding
     private lateinit var perimetroRectanguloViewModel: PerimetroRectanguloViewModel
 
-    private var valorbase : Double = 0.0
-    private var valoraltura : Double = 0.0
-    val df = DecimalFormat("###,###,###.##")
+    private val df = DecimalFormat("###,###,###.##")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -30,7 +28,7 @@ class PerimetroRectanguloActivity : AppCompatActivity() {
 
         perimetrorectanguloBinding.calculateButton.setOnClickListener{
 
-            val verificar = Observer<String> {result->
+            val verificar = Observer<String> {
                 perimetrorectanguloBinding.resultText.text = ""
             }
             perimetroRectanguloViewModel.emptyText.observe(this, verificar)
