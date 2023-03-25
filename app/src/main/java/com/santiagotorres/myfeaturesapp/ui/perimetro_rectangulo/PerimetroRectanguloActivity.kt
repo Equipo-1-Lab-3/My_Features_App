@@ -9,7 +9,7 @@ import java.text.DecimalFormat
 
 class PerimetroRectanguloActivity : AppCompatActivity() {
 
-    private lateinit var converterBinding: ActivityPerimetroRectanguloBinding
+    private lateinit var perimetrorectanguloBinding: ActivityPerimetroRectanguloBinding
     private lateinit var perimetroRectanguloViewModel: PerimetroRectanguloViewModel
 
     private var valorbase : Double = 0.0
@@ -18,28 +18,35 @@ class PerimetroRectanguloActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        converterBinding = ActivityPerimetroRectanguloBinding.inflate(layoutInflater)
+        perimetrorectanguloBinding = ActivityPerimetroRectanguloBinding.inflate(layoutInflater)
 
 
         perimetroRectanguloViewModel = ViewModelProvider(this)[PerimetroRectanguloViewModel::class.java]
 
 
-        val view = converterBinding.root
+        val view = perimetrorectanguloBinding.root
         setContentView(view)
 
 
-        converterBinding.calculateButton.setOnClickListener{
+        perimetrorectanguloBinding.calculateButton.setOnClickListener{
 
-
-            val calcularVerificar = Observer<Double> {result->
-                converterBinding.resultText.text = "El perimetro es ${df.format(result)} cm"
-
+            val verificar = Observer<String> {result->
+                perimetrorectanguloBinding.resultText.text = ""
             }
-            perimetroRectanguloViewModel.Resultado.observe(this, calcularVerificar)
+            perimetroRectanguloViewModel.emptyText.observe(this, verificar)
 
-            perimetroRectanguloViewModel.calcularPerimetro (converterBinding.BaseInput.text.toString(),
-                converterBinding.AlturaInput.text.toString(), converterBinding.uniqueLayout)
+
+            val calcular = Observer<Double> {result->
+                perimetrorectanguloBinding.resultText.text = "El perimetro es ${df.format(result)} cm"
+            }
+            perimetroRectanguloViewModel.Resultado.observe(this, calcular)
+
+
+            perimetroRectanguloViewModel.verificarDatos (perimetrorectanguloBinding.BaseInput.text.toString(),
+                perimetrorectanguloBinding.AlturaInput.text.toString(), perimetrorectanguloBinding.uniqueLayout)
+
+            perimetroRectanguloViewModel.calcularPerimetro (perimetrorectanguloBinding.BaseInput.text.toString(),
+                perimetrorectanguloBinding.AlturaInput.text.toString())
         }
-
     }
 }

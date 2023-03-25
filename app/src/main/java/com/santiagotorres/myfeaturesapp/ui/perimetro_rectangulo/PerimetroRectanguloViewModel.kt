@@ -17,7 +17,7 @@ class PerimetroRectanguloViewModel : ViewModel() {
         MutableLiveData<String>()
     }
 
-    fun calcularPerimetro (baseInput: String, alturaInput : String, layout: LinearLayout) {
+    fun  verificarDatos(baseInput: String, alturaInput : String, layout: LinearLayout) {
 
         if (baseInput.isEmpty() || baseInput == "0" || alturaInput.isEmpty() || alturaInput=="0"){
             emptyText.value = "Tiene algún valor vacío o en 0"
@@ -26,6 +26,12 @@ class PerimetroRectanguloViewModel : ViewModel() {
                 emptyText.value.toString(),
                 Snackbar.LENGTH_INDEFINITE).setAction("Aceptar") {
             }.show()
+        }
+    }
+
+    fun calcularPerimetro(baseInput: String, alturaInput : String) {
+
+        if (baseInput.isEmpty() || baseInput == "0" || alturaInput.isEmpty() || alturaInput=="0"){
 
         }
         else{
@@ -35,4 +41,6 @@ class PerimetroRectanguloViewModel : ViewModel() {
             Resultado.value = (2*base) + (2*altura)
         }
     }
+
+
 }
