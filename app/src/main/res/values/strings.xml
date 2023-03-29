@@ -4,7 +4,7 @@
     <string name="P_circulo_button">PERIMETRO</string>
     <string name="Obligatorio">*Campo obligatorio</string>
     <string name="Radio">Ingrese el radio del círculo en cm</string>
-    <string name="calcular">CALCULAR - peso</string>
+    <string name="calcular">CALCULAR PERIMETRO</string>
     <string name="total">El perimetro del círculo es:  </string>
 
 </resources>
