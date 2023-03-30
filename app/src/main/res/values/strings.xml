@@ -1,3 +1,12 @@
+
 <resources>
-    <string name="app_name">My Features App</string>
+<string name="title_text_view">Area Del Triángulo</string>
+<string name="app_name">My Features App</string>
+<string name="P_circulo_button">PERIMETRO</string>
+<string name="Obligatorio">*Campo obligatorio</string>
+<string name="Base">Ingrese la base del triángulo en cm</string>
+<string name="Altura">Ingrese la Altura del triángulo en cm</string>
+<string name="calcular">CALCULAR AREA</string>
+<string name="total">El área del triángulo es:  </string>
+
 </resources>
