@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">My Features App</string>
+    <string name="calculate_area_hexagono">Calcular área hexágono</string>
+    <string name="area_hexagono">Área del hexágono</string>
+    <string name="lado_hexagono">Lado hexágono en cm</string>
+    <string name="campo_obligatorio_area_hexagono">*Campo obligatorio</string>
+    <string name="area_hexagono_result">El área del hexágono es:</string>
+    <string name="invalid_input_hexagono">Ingrese un valor válido</string>
 </resources>
