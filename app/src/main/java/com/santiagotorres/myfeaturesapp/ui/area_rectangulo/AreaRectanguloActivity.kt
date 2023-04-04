@@ -14,6 +14,7 @@ class AreaRectanguloActivity : AppCompatActivity(){
     private lateinit var areaRectanguloViewModel: AreaRectanguloViewModel
     private val df = DecimalFormat("###,###,###.##")
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         areaRectanguloBinding = ActivityAreaRectanguloBinding.inflate(layoutInflater)

@@ -28,6 +28,7 @@ class AreaRectanguloViewModel: ViewModel() {
 
     fun calcularArea(baseInput: String, alturaInput : String) {
 
+
         if (baseInput.isEmpty() || baseInput == "0" || alturaInput.isEmpty() || alturaInput=="0"){
 
         }
