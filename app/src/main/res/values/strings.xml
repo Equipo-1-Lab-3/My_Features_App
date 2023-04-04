@@ -11,5 +11,8 @@
 <string name="Radio">Ingrese el radio del círculo en cm</string>
 <string name="calcular">CALCULAR PERIMETRO</string>
 <string name="total">El perimetro del círculo es:  </string>
-
+<string name="Base">Base en cm</string>
+<string name="altura">Altura en cm</string>
+<string name="button_text">Calcular Perimetro</string>
+<string name="texto_principal">Perímetro del rectángulo</string>
 </resources>
