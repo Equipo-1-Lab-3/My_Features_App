@@ -15,4 +15,5 @@
 <string name="altura">Altura en cm</string>
 <string name="button_text">Calcular Perimetro</string>
 <string name="texto_principal">Perímetro del rectángulo</string>
+    <string name="area_rectangulo_text">Área del rectángulo</string>
 </resources>

@@ -21,6 +21,9 @@
         <activity
             android:name=".ui.perimetro_rectangulo.PerimetroRectanguloActivity"
             android:exported="true" />
+        <activity
+            android:name=".ui.area_rectangulo.AreaRectanguloActivity"
+            android:exported="true" />
 
         <activity
             android:name=".ui.splash.SplashActivity"
