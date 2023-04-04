@@ -1,10 +1,15 @@
 <resources>
-    <string name="title_text_view">Perimetro del círculo</string>
-    <string name="app_name">My Features App</string>
-    <string name="P_circulo_button">PERIMETRO</string>
-    <string name="Obligatorio">*Campo obligatorio</string>
-    <string name="Radio">Ingrese el radio del círculo en cm</string>
-    <string name="calcular">CALCULAR PERIMETRO</string>
-    <string name="total">El perimetro del círculo es:  </string>
+<string name="app_name">My Features App</string>
+<string name="perimetro">Perímetro en cm</string>
+<string name="apotema">Apotema en cm</string>
+<string name="Calcule_button">Calcular área</string>
+<string name="Obligatorio">*Campo Obligatorio</string>
+<string name="empty" />
+<string name="titulo_my_feature">Área de un pentágono</string>
+<string name="title_text_view">Perimetro del círculo</string>
+<string name="P_circulo_button">PERIMETRO</string>
+<string name="Radio">Ingrese el radio del círculo en cm</string>
+<string name="calcular">CALCULAR PERIMETRO</string>
+<string name="total">El perimetro del círculo es:  </string>
 
 </resources>
