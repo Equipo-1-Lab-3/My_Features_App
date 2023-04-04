@@ -1,8 +1,10 @@
 package com.santiagotorres.myfeaturesapp.ui.main
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.santiagotorres.myfeaturesapp.databinding.ActivityMainBinding
+import com.santiagotorres.myfeaturesapp.ui.perimetroPentagono.PerimetroPentagonoActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -13,5 +15,11 @@ class MainActivity : AppCompatActivity() {
 
         val view = mainBinding.root
         setContentView(view)
+
+        mainBinding.PPentagonoButton.setOnClickListener {
+            val  intent =  Intent(this,PerimetroPentagonoActivity::class.java)
+
+            startActivity(intent)
+        }
     }
 }

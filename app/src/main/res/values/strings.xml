@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">My Features App</string>
+    <string name="Perimetro_pentagono_text">Perimetro Pentagono</string>
+    <string name="lado_pentagono">Longitud de uno de los lados en cm</string>
+    <string name="pentagonoP_Obligatorio">*Caampo obligatorio</string>
+    <string name="calcular_perimetro_pentagono_text">Calcular Perimetro</string>
+    <string name="Descripción_imagen_pentagono">Imagen pentagono</string>
 </resources>
