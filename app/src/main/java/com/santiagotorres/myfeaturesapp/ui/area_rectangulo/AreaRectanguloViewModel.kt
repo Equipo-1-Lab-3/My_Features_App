@@ -30,7 +30,6 @@ class AreaRectanguloViewModel: ViewModel() {
 
 
         if (baseInput.isEmpty() || baseInput == "0" || alturaInput.isEmpty() || alturaInput=="0"){
-
         }
         else{
             val base = baseInput.toDouble()

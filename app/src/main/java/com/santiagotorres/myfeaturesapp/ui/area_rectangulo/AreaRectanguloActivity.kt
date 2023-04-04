@@ -19,6 +19,7 @@ class AreaRectanguloActivity : AppCompatActivity(){
         super.onCreate(savedInstanceState)
         areaRectanguloBinding = ActivityAreaRectanguloBinding.inflate(layoutInflater)
         areaRectanguloViewModel = ViewModelProvider(this)[AreaRectanguloViewModel::class.java]
+
         val view = areaRectanguloBinding.root
         setContentView(view)
 
