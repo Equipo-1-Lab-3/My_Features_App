@@ -6,6 +6,9 @@ import android.os.Bundle
 import com.santiagotorres.myfeaturesapp.databinding.ActivityMainBinding
 import com.santiagotorres.myfeaturesapp.ui.area_pentagono.AreaPentagonoActivity
 
+import com.santiagotorres.myfeaturesapp.databinding.ActivityMainBinding
+import com.santiagotorres.myfeaturesapp.ui.perimetro_circulo.PerimetroCirculoActivity
+
 class MainActivity : AppCompatActivity() {
 
     private lateinit var mainBinding: ActivityMainBinding
@@ -21,5 +24,15 @@ class MainActivity : AppCompatActivity() {
 
             startActivity(intentAP)
         }
+        mainBinding.PCirculoButton.setOnClickListener {
+            val  intentPC =  Intent(this,PerimetroCirculoActivity::class.java)
+
+
+            startActivity(intentPC)
+        }
+
     }
-}
+
+
+    } // Yeiner D. Pájaro
+

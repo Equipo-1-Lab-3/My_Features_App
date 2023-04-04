@@ -77,7 +77,7 @@
                 android:layout_marginRight="15dp"
                 android:layout_weight="1"
 
-                android:text="Perimetro" />
+                android:text="@string/P_circulo_button" />
 
             <Button
                 android:id="@+id/P_cuadro_button"
