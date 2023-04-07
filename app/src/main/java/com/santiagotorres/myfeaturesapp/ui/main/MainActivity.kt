@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.santiagotorres.myfeaturesapp.databinding.ActivityMainBinding
+import com.santiagotorres.myfeaturesapp.ui.area_cuadro.AreaCuadradoActivity
 
 import com.santiagotorres.myfeaturesapp.ui.area_pentagono.AreaPentagonoActivity
 import com.santiagotorres.myfeaturesapp.ui.perimetro_circulo.PerimetroCirculoActivity
@@ -34,6 +35,11 @@ class MainActivity : AppCompatActivity() {
             val  intentPR =  Intent(this,PerimetroRectanguloActivity::class.java)
 
             startActivity(intentPR)
+        }
+        mainBinding.ACuadroButton.setOnClickListener{
+            val intentAC = Intent(this,AreaCuadradoActivity::class.java)
+
+            startActivity(intentAC)
         }
     }
 } // Yeiner D. Pájaro
