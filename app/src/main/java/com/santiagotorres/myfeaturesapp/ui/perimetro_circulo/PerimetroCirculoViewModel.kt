@@ -20,7 +20,7 @@ class PerimetroCirculoViewModel: ViewModel() {
         }    else {
             var total = 2*Math.PI*inputRadio.toDouble()
 
-            mensaje.value = "El perimetro del círculo es: ${String.format("%.2f",total.toDouble())}"
+            mensaje.value = "El perimetro del círculo es: ${String.format("%.2f",total.toDouble())} cm"
 
 
 
