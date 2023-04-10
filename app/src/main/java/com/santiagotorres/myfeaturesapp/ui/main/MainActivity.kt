@@ -4,10 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.santiagotorres.myfeaturesapp.databinding.ActivityMainBinding
-import com.santiagotorres.myfeaturesapp.databinding.ActivityMainBinding
 import com.santiagotorres.myfeaturesapp.ui.area_cuadro.AreaCuadradoActivity
 import com.santiagotorres.myfeaturesapp.ui.perimetro_cuadrado.PerimetroCuadradoActivity
-import com.santiagotorres.myfeaturesapp.ui.area_pentagono.AreaPentagonoActivity
 import com.santiagotorres.myfeaturesapp.ui.perimetro_circulo.PerimetroCirculoActivity
 import com.santiagotorres.myfeaturesapp.ui.perimetro_rectangulo.PerimetroRectanguloActivity
 
