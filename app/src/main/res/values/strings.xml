@@ -22,4 +22,6 @@
     <string name="texto_principal">Perímetro del rectángulo</string>
     <string name="lado_cuadrado">Lado</string>
     <string name="calcularbotoncuadrado">"Calcular "</string>
+
+
 </resources>

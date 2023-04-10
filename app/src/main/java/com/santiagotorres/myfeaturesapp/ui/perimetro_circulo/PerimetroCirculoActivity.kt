@@ -4,8 +4,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import com.santiagotorres.myfeaturesapp.R
-import com.santiagotorres.myfeaturesapp.databinding.ActivityMainBinding
 import com.santiagotorres.myfeaturesapp.databinding.ActivityPerimetroCirculoBinding
 import java.text.DecimalFormat
 
