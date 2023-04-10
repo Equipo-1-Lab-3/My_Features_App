@@ -24,6 +24,9 @@
         <activity
             android:name=".ui.area_cuadro.AreaCuadradoActivity"
             android:exported="true" />
+        <activity
+            android:name=".ui.perimetro_cuadrado.PerimetroCuadradoActivity"
+            android:exported="true"/>
 
         <activity
             android:name=".ui.splash.SplashActivity"

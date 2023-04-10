@@ -20,4 +20,6 @@
     <string name="altura">Altura en cm</string>
     <string name="button_text">Calcular Perimetro</string>
     <string name="texto_principal">Perímetro del rectángulo</string>
+    <string name="lado_cuadrado">Lado</string>
+    <string name="calcularbotoncuadrado">"Calcular "</string>
 </resources>
