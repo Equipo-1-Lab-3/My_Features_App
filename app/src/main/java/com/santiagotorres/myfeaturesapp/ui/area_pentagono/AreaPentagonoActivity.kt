@@ -43,5 +43,3 @@ class AreaPentagonoActivity : AppCompatActivity() {
 
 }
 
-
-

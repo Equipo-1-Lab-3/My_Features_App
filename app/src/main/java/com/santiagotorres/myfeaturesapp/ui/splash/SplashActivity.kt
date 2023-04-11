@@ -28,7 +28,6 @@ class SplashActivity : AppCompatActivity() {
         }, 2000
         )
     }
-
     override fun onStart() {
         super.onStart()
         Log.d("onStart", "OK")

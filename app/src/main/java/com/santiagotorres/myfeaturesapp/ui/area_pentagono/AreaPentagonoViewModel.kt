@@ -34,5 +34,3 @@ class AreaPentagonoViewModel : ViewModel() {
         }
     }
 }
-
-
