@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">My Features App</string>
+    <string name="perimetro">Perímetro en cm</string>
+    <string name="apotema">Apotema en cm</string>
+    <string name="Calcule_button">Calcular área</string>
+    <string name="Obligatorio">*Campo Obligatorio</string>
+    <string name="empty" />
+    <string name="title_my_feature">Área de un pentágono</string>
 </resources>
