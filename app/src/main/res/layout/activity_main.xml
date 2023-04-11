@@ -78,7 +78,7 @@
                 android:layout_marginRight="15dp"
                 android:layout_weight="1"
 
-                android:text="@string/P_circulo_button" />
+                android:text="Perimetro" />
 
             <Button
                 android:id="@+id/P_cuadro_button"
@@ -244,5 +244,6 @@
     </LinearLayout>
 
 </ScrollView>
+
 
 

@@ -33,4 +33,5 @@
     <string name="pentagonoP_Obligatorio">*Caampo obligatorio</string>
     <string name="calcular_perimetro_pentagono_text">Calcular Perimetro</string>
     <string name="Descripción_imagen_pentagono">Imagen pentagono</string>
+    <string name="title_my_feature">Área de un pentágono</string>
 </resources>

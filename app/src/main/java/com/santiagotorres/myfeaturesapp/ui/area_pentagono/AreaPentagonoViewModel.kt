@@ -1,14 +1,10 @@
-package com.santiagotorres.myfeaturesapp.ui.perimetro_rectangulo
+package com.santiagotorres.myfeaturesapp.ui.area_pentagono
 
 import android.widget.LinearLayout
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.google.android.material.snackbar.Snackbar
-
-
-class PerimetroRectanguloViewModel : ViewModel() {
-
-
+class AreaPentagonoViewModel : ViewModel() {
     val Resultado: MutableLiveData<Double> by lazy {
         MutableLiveData<Double>()
     }
@@ -18,9 +14,8 @@ class PerimetroRectanguloViewModel : ViewModel() {
     }
 
     fun  verificarDatos(baseInput: String, alturaInput : String, layout: LinearLayout) {
-
-        if (baseInput.isEmpty() || baseInput == "0" || alturaInput.isEmpty() || alturaInput=="0"){
-            emptyText.value = "Tiene algún valor vacío o en 0"
+        if (baseInput.isEmpty() ||  alturaInput.isEmpty() ){
+            emptyText.value = "Tiene algún valor vacío "
 
             Snackbar.make(layout,
                 emptyText.value.toString(),
@@ -28,19 +23,14 @@ class PerimetroRectanguloViewModel : ViewModel() {
             }.show()
         }
     }
-
-    fun calcularPerimetro(baseInput: String, alturaInput : String) {
-
-        if (baseInput.isEmpty() || baseInput == "0" || alturaInput.isEmpty() || alturaInput=="0"){
+    fun calcularAreaPentagono(perimetroPentInput: String, apotemaPentInput : String) {
+        if (perimetroPentInput.isEmpty() || apotemaPentInput.isEmpty() ){
 
         }
         else{
-            var base = baseInput.toDouble()
-            var altura = alturaInput.toDouble()
-
-            Resultado.value = (2*base) + (2*altura)
+            var perimetroP = perimetroPentInput.toDouble()
+            var apotemaP = apotemaPentInput.toDouble()
+            Resultado.value = ( (perimetroP*apotemaP) / 2)
         }
     }
-
-
 }
