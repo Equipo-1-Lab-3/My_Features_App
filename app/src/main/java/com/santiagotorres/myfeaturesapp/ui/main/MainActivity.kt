@@ -9,6 +9,7 @@ import com.santiagotorres.myfeaturesapp.ui.perimetro_cuadrado.PerimetroCuadradoA
 import com.santiagotorres.myfeaturesapp.ui.perimetro_circulo.PerimetroCirculoActivity
 import com.santiagotorres.myfeaturesapp.ui.perimetro_rectangulo.PerimetroRectanguloActivity
 import com.santiagotorres.myfeaturesapp.ui.area_hexagono.AreaHexagonoActivity
+import com.santiagotorres.myfeaturesapp.ui.perimetroPentagono.PerimetroPentagonoActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -46,5 +47,13 @@ class MainActivity : AppCompatActivity() {
 
             startActivity(intentAH)
         }
+        mainBinding.PPentagonoButton.setOnClickListener {
+            val  intent =  Intent(this,PerimetroPentagonoActivity::class.java)
+
+            startActivity(intent)
+        }
     }
 } // Yeiner D. Pájaro
+
+
+

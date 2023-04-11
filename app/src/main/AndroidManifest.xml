@@ -30,6 +30,9 @@
             android:name=".ui.area_hexagono.AreaHexagonoActivity"
             android:exported="true" />
         <activity
+            android:name=".ui.perimetroPentagono.PerimetroPentagonoActivity"
+            android:exported="true" />
+        <activity
             android:name=".ui.splash.SplashActivity"
             android:exported="true"
             android:theme="@style/Theme.myfeaturesapp.NoActionBar">

@@ -22,12 +22,15 @@
     <string name="texto_principal">Perímetro del rectángulo</string>
     <string name="lado_cuadrado">Lado</string>
     <string name="calcularbotoncuadrado">"Calcular "</string>
-
-
     <string name="calculate_area_hexagono">Calcular área hexágono</string>
     <string name="area_hexagono">Área del hexágono</string>
     <string name="lado_hexagono">Lado hexágono en cm</string>
     <string name="campo_obligatorio_area_hexagono">*Campo obligatorio</string>
     <string name="area_hexagono_result">El área del hexágono es:</string>
     <string name="invalid_input_hexagono">Ingrese un valor válido</string>
+    <string name="Perimetro_pentagono_text">Perimetro Pentagono</string>
+    <string name="lado_pentagono">Longitud de uno de los lados en cm</string>
+    <string name="pentagonoP_Obligatorio">*Caampo obligatorio</string>
+    <string name="calcular_perimetro_pentagono_text">Calcular Perimetro</string>
+    <string name="Descripción_imagen_pentagono">Imagen pentagono</string>
 </resources>
