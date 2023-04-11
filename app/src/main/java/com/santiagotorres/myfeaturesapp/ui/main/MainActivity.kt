@@ -8,6 +8,7 @@ import com.santiagotorres.myfeaturesapp.ui.area_cuadro.AreaCuadradoActivity
 import com.santiagotorres.myfeaturesapp.ui.perimetro_cuadrado.PerimetroCuadradoActivity
 import com.santiagotorres.myfeaturesapp.ui.perimetro_circulo.PerimetroCirculoActivity
 import com.santiagotorres.myfeaturesapp.ui.perimetro_rectangulo.PerimetroRectanguloActivity
+import com.santiagotorres.myfeaturesapp.ui.area_hexagono.AreaHexagonoActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -40,10 +41,10 @@ class MainActivity : AppCompatActivity() {
 
             startActivity(intentPCu)
         }
+        mainBinding.AHexagonoButton.setOnClickListener {
+            val intentAH = Intent(this, AreaHexagonoActivity::class.java)
+
+            startActivity(intentAH)
+        }
     }
 } // Yeiner D. Pájaro
-
-
-
-
-
