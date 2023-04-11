@@ -59,3 +59,4 @@ class SplashActivity : AppCompatActivity() {
         Log.d("onDestroy", "OK")
     }
 }
+

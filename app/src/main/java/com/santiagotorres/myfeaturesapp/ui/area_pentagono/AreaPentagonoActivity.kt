@@ -6,7 +6,6 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.santiagotorres.myfeaturesapp.databinding.ActivityAreaPentagonoBinding
 import java.text.DecimalFormat
-
 class AreaPentagonoActivity : AppCompatActivity() {
     private lateinit var areaPentagonoBinding: ActivityAreaPentagonoBinding
     private lateinit var areaPentagonoViewModel: AreaPentagonoViewModel
@@ -43,5 +42,6 @@ class AreaPentagonoActivity : AppCompatActivity() {
     }
 
 }
+
 
 
