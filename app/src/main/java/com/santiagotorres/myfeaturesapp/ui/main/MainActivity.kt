@@ -6,11 +6,13 @@ import android.os.Bundle
 import com.santiagotorres.myfeaturesapp.databinding.ActivityMainBinding
 import com.santiagotorres.myfeaturesapp.ui.area_cuadro.AreaCuadradoActivity
 import com.santiagotorres.myfeaturesapp.ui.perimetro_cuadrado.PerimetroCuadradoActivity
+
+import com.santiagotorres.myfeaturesapp.ui.area_pentagono.AreaPentagonoActivity
+import com.santiagotorres.myfeaturesapp.ui.area_rectangulo.AreaRectanguloActivity
 import com.santiagotorres.myfeaturesapp.ui.perimetro_circulo.PerimetroCirculoActivity
 import com.santiagotorres.myfeaturesapp.ui.perimetro_rectangulo.PerimetroRectanguloActivity
 import com.santiagotorres.myfeaturesapp.ui.area_hexagono.AreaHexagonoActivity
 import com.santiagotorres.myfeaturesapp.ui.perimetroPentagono.PerimetroPentagonoActivity
-import com.santiagotorres.myfeaturesapp.ui.area_pentagono.AreaPentagonoActivity
 import com.santiagotorres.myfeaturesapp.ui.area_triangulo.AreaTrianguloActivity
 
 class MainActivity : AppCompatActivity() {
@@ -23,6 +25,11 @@ class MainActivity : AppCompatActivity() {
         val view = mainBinding.root
         setContentView(view)
 
+        mainBinding.APentagonoButton.setOnClickListener {
+            val  intentAP =  Intent(this,AreaPentagonoActivity::class.java)
+
+            startActivity(intentAP)
+        }
         mainBinding.PCirculoButton.setOnClickListener {
             val  intentPC =  Intent(this,PerimetroCirculoActivity::class.java)
 
@@ -54,14 +61,16 @@ class MainActivity : AppCompatActivity() {
 
             startActivity(intent)
         }
-        mainBinding.APentagonoButton.setOnClickListener {
-            val  intentAP =  Intent(this,AreaPentagonoActivity::class.java)
 
-            startActivity(intentAP)
-        }
         mainBinding.ATrianguloButton.setOnClickListener {
             val intentAT = Intent(this,AreaTrianguloActivity::class.java)
             startActivity(intentAT)
+        }
+
+        mainBinding.ARectanguloButton.setOnClickListener {
+            val  intentAR =  Intent(this,AreaRectanguloActivity::class.java)
+
+            startActivity(intentAR)
         }
     }
 } // Yeiner D. Pájaro

@@ -40,5 +40,5 @@
     <string name="Altura_Area_Triangulo">Ingrese la Altura del triángulo en cm</string>
     <string name="calcular_Area_Triangulo">CALCULAR AREA</string>
     <string name="total_Area_Triangulo">El área del triángulo es:  </string>
-
+    <string name="area_rectangulo_text">Área del rectángulo</string>
 </resources>
