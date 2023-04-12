@@ -36,6 +36,7 @@ class MainActivity : AppCompatActivity() {
 
             startActivity(intentPR)
         }
+
         mainBinding.ARectanguloButton.setOnClickListener {
             val  intentAR =  Intent(this,AreaRectanguloActivity::class.java)
 
