@@ -21,6 +21,22 @@
         <activity
             android:name=".ui.perimetro_rectangulo.PerimetroRectanguloActivity"
             android:exported="true" />
+        <activity
+            android:name=".ui.area_cuadro.AreaCuadradoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.perimetro_cuadrado.PerimetroCuadradoActivity"
+            android:exported="true"/>
+
+        <activity
+            android:name=".ui.area_hexagono.AreaHexagonoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.perimetroPentagono.PerimetroPentagonoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.area_triangulo.AreaTrianguloActivity"
+            android:exported="true" />
 
         <activity
             android:name=".ui.area_rectangulo.AreaRectanguloActivity"
@@ -39,6 +55,7 @@
         <activity
             android:name=".ui.main.MainActivity"
             android:exported="true">
+
         </activity>
     </application>
 

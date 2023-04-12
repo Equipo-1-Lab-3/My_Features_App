@@ -4,11 +4,16 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.santiagotorres.myfeaturesapp.databinding.ActivityMainBinding
+import com.santiagotorres.myfeaturesapp.ui.area_cuadro.AreaCuadradoActivity
+import com.santiagotorres.myfeaturesapp.ui.perimetro_cuadrado.PerimetroCuadradoActivity
 
 import com.santiagotorres.myfeaturesapp.ui.area_pentagono.AreaPentagonoActivity
 import com.santiagotorres.myfeaturesapp.ui.area_rectangulo.AreaRectanguloActivity
 import com.santiagotorres.myfeaturesapp.ui.perimetro_circulo.PerimetroCirculoActivity
 import com.santiagotorres.myfeaturesapp.ui.perimetro_rectangulo.PerimetroRectanguloActivity
+import com.santiagotorres.myfeaturesapp.ui.area_hexagono.AreaHexagonoActivity
+import com.santiagotorres.myfeaturesapp.ui.perimetroPentagono.PerimetroPentagonoActivity
+import com.santiagotorres.myfeaturesapp.ui.area_triangulo.AreaTrianguloActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -36,6 +41,31 @@ class MainActivity : AppCompatActivity() {
 
             startActivity(intentPR)
         }
+        mainBinding.ACuadroButton.setOnClickListener{
+            val intentAC = Intent(this,AreaCuadradoActivity::class.java)
+
+            startActivity(intentAC)
+        }
+        mainBinding.PCuadroButton.setOnClickListener {
+            val intentPCu = Intent(this, PerimetroCuadradoActivity::class.java)
+
+            startActivity(intentPCu)
+        }
+        mainBinding.AHexagonoButton.setOnClickListener {
+            val intentAH = Intent(this, AreaHexagonoActivity::class.java)
+
+            startActivity(intentAH)
+        }
+        mainBinding.PPentagonoButton.setOnClickListener {
+            val  intent =  Intent(this,PerimetroPentagonoActivity::class.java)
+
+            startActivity(intent)
+        }
+
+        mainBinding.ATrianguloButton.setOnClickListener {
+            val intentAT = Intent(this,AreaTrianguloActivity::class.java)
+            startActivity(intentAT)
+        }
 
         mainBinding.ARectanguloButton.setOnClickListener {
             val  intentAR =  Intent(this,AreaRectanguloActivity::class.java)
@@ -44,8 +74,6 @@ class MainActivity : AppCompatActivity() {
         }
     }
 } // Yeiner D. Pájaro
-
-
 
 
 

@@ -4,7 +4,6 @@ import android.widget.LinearLayout
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.google.android.material.snackbar.Snackbar
-
 class AreaPentagonoViewModel : ViewModel() {
     val Resultado: MutableLiveData<Double> by lazy {
         MutableLiveData<Double>()
@@ -35,4 +34,3 @@ class AreaPentagonoViewModel : ViewModel() {
         }
     }
 }
-
