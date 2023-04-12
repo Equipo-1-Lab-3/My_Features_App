@@ -34,4 +34,11 @@
     <string name="calcular_perimetro_pentagono_text">Calcular Perimetro</string>
     <string name="Descripción_imagen_pentagono">Imagen pentagono</string>
     <string name="title_my_feature">Área de un pentágono</string>
+    <string name="title_Area_Triangulo_view">Area Del Triángulo</string>
+    <string name="A_Triangulo_button">PERIMETRO</string>
+    <string name="Base_Area_Triangulo">Ingrese la base del triángulo en cm</string>
+    <string name="Altura_Area_Triangulo">Ingrese la Altura del triángulo en cm</string>
+    <string name="calcular_Area_Triangulo">CALCULAR AREA</string>
+    <string name="total_Area_Triangulo">El área del triángulo es:  </string>
+
 </resources>
